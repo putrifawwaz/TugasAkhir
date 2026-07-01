@@ -1,0 +1,11 @@
+Personality Disorder Label,True Negative (TN),False Positive (FP),False Negative (FN),True Positive (TP)
+Paranoid,298,62,16,54
+Schizoid,271,90,15,54
+Schizotypal,333,33,10,54
+Antisocial,267,89,17,57
+Borderline,344,10,19,57
+Histrionic,347,21,12,50
+Narcissistic,354,15,12,49
+Avoidant,332,39,12,47
+Dependent,307,49,17,57
+Obsessive-compulsive,322,38,10,60
