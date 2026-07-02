@@ -280,8 +280,8 @@ if menu == "ℹ️ Informasi Sistem":
 
     with col_graph2:
         st.subheader("Top Fitur Global (Model Importance)")
-        feat_path = r"C:\Users\PUTRI\Documents\SEMESTER 8\TUGAS AKHIR\[WORKING]_PROJECT_TA - Copy\assets_8020\global_feature_importance.png"
-        
+        feat_path = os.path.join("assets_8020", "global_feature_importance.png")
+
         if os.path.exists(feat_path):
             st.image(feat_path, use_container_width=True)
         else:
