@@ -9,7 +9,7 @@ import shap
 import datetime
 import re
 
-
+from pathlib import Path
 from streamlit_option_menu import option_menu
 
 # ============================================================
@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 # PATH ABSOLUT KHUSUS DIREKTORI TUGAS AKHIR PUTRI (OTOMATIS OVERWRITE)
-DB_FILE = r"C:\Users\PUTRI\Documents\SEMESTER 8\TUGAS AKHIR\[WORKING]_PROJECT_TA - Copy\database_riwayat.csv"
+DB_FILE = Path(__file__).parent / "database_riwayat.csv"
 
 # Fungsi untuk memuat data dari folder TA lokal
 def load_database_from_csv():
